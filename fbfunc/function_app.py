@@ -9,8 +9,8 @@ def main(req: func.HttpRequest) -> func.HttpResponse: #pylint:disable=unused-arg
     logging.info('Python HTTP trigger function processed a request.')
 
     # Fetch the Page Access Token and Page ID from Azure Function App Settings
-    page_access_token = "EAAEuya008q4BO5wdsghiCtaJiesQPZAtZCWJ6CoDUTZB4M9z49gg9jbitkcOxJLa6EIW5nhOIgmD9HFPOTicTXfdkzFXYIApDvmDRfiN7LebO2sficzyAngqouhQvh1AaYBoZCZAMni2J90OtTf79ohYUwjVZBn8htE0e7zpIxkMvcTI0YmkV4tL9es70jiZB22SJX81NNPIgQDZABMxcZBo04QgZD"
-    page_id = "140918152438760"
+    page_access_token = ""
+    page_id = ""
 
     # The message you want to post
     message = "new!"
