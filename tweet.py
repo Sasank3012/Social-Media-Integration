@@ -14,7 +14,7 @@ def tweet(bearer_token, tweet):
     return response.json()
 
 def main():
-    bearer_token = "AAAAAAAAAAAAAAAAAAAAAGBxqgEAAAAAOMEBa0XOZ242DDy2lHdfLCU2v6U%3D9wKFXGAHo8o8eVx0xQNExx3q9cQDzHPVwBZoo4VUiMC5WjrE4U"
+    bearer_token = ""
     tweet_text = "TWEET_TEXT"
     response = tweet(bearer_token, tweet_text)
     print(response)
