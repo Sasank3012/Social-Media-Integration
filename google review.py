@@ -27,8 +27,8 @@ def parse_reviews(reviews):
 
 def main():
     """main"""
-    api_key = "YOUR_API_KEY"  # Please replace with your actual API key
-    place_name = "PLACE_NAME"  # Please replace with the actual place name
+    api_key = "YOUR_API_KEY"  
+    place_name = "PLACE_NAME" 
     place_id = get_place_id(api_key, place_name)
     reviews = get_reviews(api_key, place_id)
     parse_reviews(reviews)
